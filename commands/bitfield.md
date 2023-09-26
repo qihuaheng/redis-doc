@@ -104,7 +104,7 @@ Usually `BITFIELD` is a fast command, however note that addressing far bits of c
 
 The representation used by `BITFIELD` considers the bitmap as having the
 bit number 0 to be the most significant bit of the first byte, and so forth, so
-for example setting a 5 bits unsigned integer to value 23 at offset 7 into a
+for example setting a 5 bits unsigned integer to value 27 at offset 7 into a
 bitmap previously set to all zeroes, will produce the following representation:
 
     +--------+--------+
